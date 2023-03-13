@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+ <head>
+<title> Δημιουργία φόρμας συλλογής στοιχείων </title>
+<link  href="mystyle5.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+<form id="form1" method="post" action="a.php" style="text-align:center;">
+<h1 class="h1">Φόρμα Εγγραφής </h1>
+<fieldset>
+<div class="position"> Όνομα &nbsp; &nbsp; <input required name="onoma" placeholder="Εισάγετε το όνομά σας" type="text" pattern="[A-Za-zΑ-Ωα-ω]+"/> </div>
+<!--ΔΕΧΕΤΑΙ ΛΑΤΙΝΙΚΑ ΚΑΙ ΕΛΛΗΝΙΚΑ ΓΡΑΜΜΑΤΑ-->
+<br>
+<br>
+<div class="position">Επώνυμο &nbsp; &nbsp; <input required name="eponymo" placeholder="Εισάγετε το επώνυμό σας" name="lastname" pattern="[A-Za-zΑ-Ωα-ω]+" type="text"/> </div>
+<!--ΔΕΧΕΤΑΙ ΛΑΤΙΝΙΚΑ ΚΑΙ ΕΛΛΗΝΙΚΑ ΓΡΑΜΜΑΤΑ-->
+<br>
+<br>
+Ημερομηνία γέννησης &nbsp; &nbsp;
+   <select required name="date">
+   <option selected disabled>Ημέρα</option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+<option>10</option>
+<option>11</option>
+<option>12</option>
+<option>13</option>
+<option>14</option>
+<option>15</option>
+<option>16</option>
+<option>17</option>
+<option>18</option>
+<option>19</option>
+<option>20</option>
+<option>21</option>
+<option>22</option>
+<option>23</option>
+<option>24</option>
+<option>25</option>
+<option>26</option>
+<option>27</option>
+<option>28</option>
+<option>29</option>
+<option>30</option>
+<option>31</option>  
+</select>
+   <select required>
+       <option selected disabled>Μήνας</option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+<option>10</option>
+<option>11</option>
+<option>12</option>
+</select>
+            <select required>
+       <option selected disabled>Έτος</option>
+<option>1940</option>
+<option>1941</option>
+<option>1942</option>
+<option>1943</option>
+<option>1944</option>
+<option>1945</option>
+<option>1946</option>
+<option>1947</option>
+<option>1948</option>
+<option>1949</option>
+<option>1950</option>
+<option>1951</option>
+<option>1952</option>
+<option>1953</option>
+<option>1954</option>
+<option>1955</option>
+<option>1956</option>
+<option>1957</option>
+<option>1958</option>
+<option>1959</option>
+<option>1960</option>
+<option>1961</option>
+<option>1962</option>
+<option>1963</option>
+<option>1964</option>
+<option>1965</option>
+<option>1966</option>
+<option>1967</option>
+<option>1968</option>
+<option>1969</option>
+<option>1970</option>
+<option>1971</option>
+<option>1972</option>
+<option>1973</option>
+<option>1974</option>
+<option>1975</option>
+<option>1976</option>
+<option>1977</option>
+<option>1978</option>
+<option>1979</option>
+<option>1980</option>
+<option>1981</option>
+<option>1982</option>
+<option>1983</option>
+<option>1984</option>
+<option>1985</option>
+<option>1986</option>
+<option>1987</option>
+<option>1988</option>
+<option>1989</option>
+<option>1990</option>
+<option>1991</option>
+<option>1992</option>
+<option>1993</option>
+<option>1994</option>
+<option>1995</option>
+<option>1996</option>
+<option>1997</option>
+<option>1998</option>
+<option>1999</option>
+<option>2000</option>
+<option>2001</option>
+<option>2002</option>
+<option>2003</option>
+<option>2004</option>
+<option>2005</option>
+<option>2006</option>
+<option>2007</option>
+<option>2008</option>
+<option>2009</option>
+<option>2010</option>
+</select>
+<br>
+<br>
+<form name="form3" name="fylo">
+<label for="Φύλο">Φύλο &nbsp; &nbsp; </label>
+MR <input type="radio"   onClick="filo(p="MR")" id="Φύλο" name="φύλο" value="1" />
+MRS <input type="radio"  onClick="filo(p="MRS")" name="φύλο" id="Φύλο" value="1" />
+</form>
+<br>
+<br>
+Χώρα &nbsp; &nbsp;
+   <select required name="xora">
+          <option selected disabled>Χώρα</option>
+<option>UK</option>
+<option >Greece</option>
+<option>Italy</option>
+<option>France</option>
+<option>Russia</option>
+<option >Germany</option>
+<option>Cyprus</option>
+<option>USA</option>
+</select>
+<br>
+<br>
+E-mail &nbsp; &nbsp; <input required name="email" placeholder="Εισάγετε E-mail" type="email" />
+<!--ΔΕΧΕΤΑΙ MONO email-->
+<br>
+<br>
+Τηλέφωνο &nbsp; &nbsp; <input required placeholder="Εισάγετε τηλέφωνο" name="tilefono" pattern="[0-9]{10}" type="text" />
+<!--ΔΕΧΕΤΑΙ ΕΩΣ 10 ΝΟΥΜΕΡΑ-->
+<br>
+<br>
+<div class="position">Username &nbsp; &nbsp; <input required placeholder="Εισάγετε username" name="username" pattern="[A-Za-z]+" minlength="6" maxlength="8"  type="text"/> </div>
+<!--ΔΕΧΕΤΑΙ MONO ΛΑΤΙΝΙΚΑ ΑΠΟ 6 ΕΩΣ 8 ΧΑΡΑΚΤΗΡΕΣ-->
+<br>
+<br>
+Password &nbsp; &nbsp; <input required type="password" name="password" minlength="6" maxlength="8"  />
+<!--ΔΕΧΕΤΑΙ MONO ΛΑΤΙΝΙΚΑ ΑΠΟ 6 ΕΩΣ 8 ΧΑΡΑΚΤΗΡΕΣ-->
+<br>
+<br>
+Confirm Password &nbsp; &nbsp; <input required type="password" name="password" minlength="6" maxlength="8" />
+<!--ΔΕΧΕΤΑΙ MONO ΛΑΤΙΝΙΚΑ ΑΠΟ 6 ΕΩΣ 8 ΧΑΡΑΚΤΗΡΕΣ-->
+<br>
+<br>
+<input required type="checkbox" onClick="agree()" name="oroixrisis" value="1"/> &nbsp; &nbsp; Συμφωνείτε να λαμβάνετε ενημερωτικά email;</br>
+<br>
+<br>
+</fieldset>
+</form>
+<button class="button button1" type="reset" form="form1" value="reset">Ακυρωση</button>
+<button class="button button2" type="submit" form="form1" value="submit">Αποστολή</button>
+<script>
+function filo(p) {
+
+apfilu=p;
+return apfilu;
+}
+
+function agree() {
+
+alert("Πείτε μας τους λόγους με τους οποίους συμφωνείτε ή διαφωνείτε  να λαμβάνετε email.");
+var num = prompt("Καταθέστε την απαντησή σας:");
+}
+</script>
+<h4>ΠΑΤΗΣΤΕ ΤΟ ΒΕΛΑΚΙ ΓΙΑ ΝΑ ΜΕΤΑΒΕΙΤΕ ΣΤΗΝ ΠΡΟΗΓΟΥΜΕΝΗ ΙΣΤΟΣΕΛΙΔΑ </h4>
+		<br><br>
+		<img src="velos-aristera.gif" width="50%" height="50%" border="3" alt="ΒΕΛΑΚΙ" alt="Image with map"    usemap="#map4">
+		<map name="map4" >
+			<area  href="file:///C:/A_%CE%98%CE%95%CE%9F%CE%94%CE%A9%CE%A1%CE%91/%CE%98%CE%95%CE%9F%CE%94%CE%A9%CE%A1%CE%91-%CE%A0%CE%91%CE%A0%CE%95%CE%99/%CE%A0%CE%91%CE%A0%CE%95%CE%99-%CE%9C%CE%91%CE%98%CE%97%CE%9C%CE%91%CE%A4%CE%91/%CE%A0%CE%91%CE%A0%CE%95%CE%99-%CE%91'%20%CE%95%CE%9E%CE%91%CE%9C%CE%97%CE%9D%CE%9F/%CE%915%20-%20%CE%A4%CE%95%CE%A7%CE%9D%CE%9F%CE%9B%CE%9F%CE%93%CE%99%CE%95%CE%A3%20%CE%94%CE%99%CE%91%CE%94%CE%99%CE%9A%CE%A4%CE%A5%CE%9F%CE%A5/webtech/%CE%95%CE%A1%CE%93%CE%91%CE%A3%CE%99%CE%91-%CE%95%CE%9E%CE%91%CE%9C%CE%97%CE%9D%CE%9F%CE%A5/programma-omilion.html" alt="Image map test" shape="rect" coords="1,546,965,10">
+		</li>
+		<br><br>
+		<li>
+		<h4>ΠΑΤΗΣΤΕ ΤΟ ΒΕΛΑΚΙ ΓΙΑ ΝΑ ΠΡΟΧΩΡΗΣΕΤΕ ΣΤΗΝ ΕΠΟΜΕΝΗ  ΦΟΡΜΑ ΕΓΓΡΑΦΗΣ </h4>
+		<br><br>
+		<img src="velaki-deksia.gif" width="50%" height="50%" border="3" alt="ΒΕΛΑΚΙ" alt="Image with map"    usemap="#map3">
+		<map name="map3" >
+			<area  href="file:///C:/A_%CE%98%CE%95%CE%9F%CE%94%CE%A9%CE%A1%CE%91/%CE%98%CE%95%CE%9F%CE%94%CE%A9%CE%A1%CE%91-%CE%A0%CE%91%CE%A0%CE%95%CE%99/%CE%A0%CE%91%CE%A0%CE%95%CE%99-%CE%9C%CE%91%CE%98%CE%97%CE%9C%CE%91%CE%A4%CE%91/%CE%A0%CE%91%CE%A0%CE%95%CE%99-%CE%91'%20%CE%95%CE%9E%CE%91%CE%9C%CE%97%CE%9D%CE%9F/%CE%915%20-%20%CE%A4%CE%95%CE%A7%CE%9D%CE%9F%CE%9B%CE%9F%CE%93%CE%99%CE%95%CE%A3%20%CE%94%CE%99%CE%91%CE%94%CE%99%CE%9A%CE%A4%CE%A5%CE%9F%CE%A5/webtech/%CE%95%CE%A1%CE%93%CE%91%CE%A3%CE%99%CE%91-%CE%95%CE%9E%CE%91%CE%9C%CE%97%CE%9D%CE%9F%CE%A5/deyteri-forma.html"  alt="Image map test" shape="rect" coords="1,546,965,10">
+
+</body>
+</html>
+
+
+
+
+

@@ -1,0 +1,11 @@
+			.div {
+				display: block;
+			}
+			#inner-banner {
+				float: right;
+				width: 46%;
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-color: red;
+				padding: 10px;
+			}

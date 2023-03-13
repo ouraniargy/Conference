@@ -1,0 +1,36 @@
+
+body {font-size:20pt;  background-color: }
+form {font-size:12pt; background-color:#222536; font-color:black;}
+
+.position {
+	position:relative;
+	left:320px;
+}
+.position2 {
+	position:relative;
+	left:410px;
+}
+.position3 {
+	position:relative;
+	left:750px;
+}
+input[type="reset" i]{
+background-color:red;
+border:none;
+color:white;
+padding:20px;
+text-align:center;
+text-decoration:none;
+display:inline-block;
+border-radius:50%
+}
+input[type="submit" i]{
+background-color:green;
+border:none;
+color:white;
+padding:20px;
+text-align:center;
+text-decoration:none;
+display:inline-block;
+border-radius:50%
+}

@@ -1,0 +1,48 @@
+table,td{
+				width:500px;
+				margin:auto;
+				}
+			
+		.h1{
+			font-family:arial;
+			font-size:30pt;
+			text-align:center;
+			height:20px;
+			width:100%;
+			color:purple;
+			background-color:pink;
+			letter-spacing:2pt;
+			margin:0px;
+			padding:20px;
+			}
+		
+		position{
+				font-family:Courier New;
+				text-align: center;
+				}
+		body{
+			background-color:grey;
+			}
+		fieldset{
+				font-family: sans-serif; 
+				color: black;
+				background-color:orange;
+				}
+		.button {
+				background-color: green; /* Green */
+				border: none;
+				color: white;
+				padding: 50px;
+				text-align: right;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 14px;
+				margin: 4px 2px;
+				cursor: pointer;
+				float:right;
+				}
+		.button2{border-radius: 50%;}
+		.button1{
+				border-radius: 50%;
+				background-color:red;
+				}

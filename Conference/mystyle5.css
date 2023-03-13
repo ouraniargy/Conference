@@ -1,0 +1,48 @@
+table,td{
+				width:600px;
+				margin:auto;
+				}
+			
+		.h1{
+			font-family:arial;
+			font-size:20pt;
+			text-align:left;
+			height:20px;
+			width:100%;
+			color:yellow;
+			background-color:#ff66a3;
+			letter-spacing:2pt;
+			margin:0px;
+			padding:20px;
+			}
+		
+		position{
+				font-family:Courier New;
+				text-align: center;
+				}
+		body{
+			background-color: #ff66a3;
+			}
+		fieldset{
+				font-family: sans-serif; 
+				color: yellow;
+				background-color:#4d0026;
+				}
+		.button {
+				background-color: #4CAF50; /* Green */
+				border: none;
+				color: white;
+				padding: 20px;
+				text-align: right;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+				margin: 4px 2px;
+				cursor: pointer;
+				float:right;
+				}
+		.button2{border-radius: 50%;}
+		.button1{
+				border-radius: 50%;
+				background-color:red;
+				}

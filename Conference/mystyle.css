@@ -1,0 +1,19 @@
+		.h3{
+			font-family:arial;
+			font-size:30pt;
+			text-align:left;
+			height:20px;
+			width:100%;
+			color:yellow;
+			background-color:orange;
+			letter-spacing:2pt;
+			margin:0px;
+			padding:20px;
+			}
+		body{
+			background-color: #FFCCCC;
+			}
+	    #sentence{
+			color:orange;
+			font-family:arial;
+			}
